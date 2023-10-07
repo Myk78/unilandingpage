@@ -85,6 +85,12 @@ nav img {
   background-color: rgb(245, 192, 112);
   transition: 0.5s;
 }
+
+/* icons */
+nav .fa {
+  display: none;
+}
+
 @media (max-width: 590px) {
   .text-box h1 {
     font-size: 22px;
@@ -94,12 +100,24 @@ nav img {
   }
   .nav-links {
     position: absolute;
-    background: black;
+    background: rgb(104, 104, 104);
     height: 100vh;
     width: 200px;
     top: 0;
-    right: 0;
+    right: -200px;
     text-align: left;
     z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .nav-links ul {
+    padding: 30px;
   }
 }
