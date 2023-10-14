@@ -293,18 +293,18 @@ nav .fa {
   background-size: cover;
   border-radius: 10px;
   text-align: center;
-  padding: 100px, 0;
+  padding: 50px;
 }
 .cta h1 {
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 17px;
   padding: 0;
 }
 .cta a {
   text-decoration: none;
   color: #fff;
   border: 1px solid rgb(245, 192, 112);
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 @media (max-width: 590px) {
   .cta h1 {
